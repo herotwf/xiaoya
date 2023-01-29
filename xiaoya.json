@@ -11,76 +11,12 @@
  ],
  "homepage": "https://gitcode.net/qq_32394351/dr_py",
  "sites": [
-  {
-   "key": "Alist",
-   "name": "Alist",
-   "type": 3,
-   "api": "http://120.253.235.50:5705/libs/alist.min.js",
-   "searchable": 2,
-   "quickSearch": 0,
-   "filterable": 0,
-   "ext": "https://ghproxy.com/https://raw.githubusercontent.com/herotwf/xiaoya/main/alist.json;200;video"
-  },
-  {
-   "key": "Alist_pt",
-   "name": "Alist(pluto)",
-   "type": 3,
-   "api": "http://120.253.235.50:5705/libs/alist.min.js",
-   "searchable": 2,
-   "quickSearch": 0,
-   "filterable": 0,
-   "ext": "http://120.253.235.50:5705/config/2;200;video"
-  },
-  {
-   "key": "Alist_obj",
-   "name": "Alist(obj)",
-   "type": 3,
-   "api": "http://120.253.235.50:5705/libs/alist.min.js",
-   "searchable": 2,
-   "quickSearch": 0,
-   "filterable": 0,
-   "ext": [
-    {
-     "name": "🙋丫仙女",
-     "server": "http://120.253.235.50:5678/",
-     "startPage": "/",
-     "showAll": false,
-     "search": true,
-     "params": {
-      "/abc": {
-       "password": "123"
-      },
-      "/abc/abc": {
-       "password": "123"
-      }
-     }
-    },
-   ]
-  },
  ],
  "parses": [
 
  ],
  "flags": [
-  "imgo",
-  "youku",
-  "qq",
-  "qq 预告及花絮",
-  "iqiyi",
-  "qiyi",
-  "fun",
-  "letv",
-  "leshi",
-  "sohu",
-  "tudou",
-  "xigua",
-  "cntv",
-  "1905",
-  "pptv",
-  "mgtv",
-  "wasu",
-  "bilibili",
-  "renrenmi"
+
  ],
  "hotSearch": [
   {
@@ -115,7 +51,7 @@
     {
      "name": "直播",
      "urls": [
-      "proxy://do=live&type=txt&ext=aHR0cDovLzEyMC4yNTMuMjM1LjUwOjU3MDUvbGl2ZXM="
+      "http://120.253.235.50:4567/sxg.m3u"
      ]
     }
    ]
